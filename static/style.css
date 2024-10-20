@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+header form {
+    margin-top: 15px;
+}
+
+header input[type="text"] {
+    padding: 12px 15px;
+    font-size: 1em;
+    width: 60%;
+    max-width: 500px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+header button {
+    padding: 12px 20px;
+    font-size: 1em;
+    background-color: #FFC107;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #e0a800;
+}
+
+.content {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.articles {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+article:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+article h2 {
+    margin-top: 0;
+    font-size: 1.7em;
+}
+
+article h2 a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+article h2 a:hover {
+    text-decoration: underline;
+}
+
+article p {
+    margin: 10px 0;
+    line-height: 1.6em;
+}
+
+.pagination {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.pagination a {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.pagination a:hover {
+    background-color: #0056b3;
+}
+
+.pagination a:disabled,
+.pagination a.disabled {
+    background-color: #ddd;
+    color: #666;
+    pointer-events: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
