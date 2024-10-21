@@ -1,3 +1,8 @@
+import os
+
+# Disable Flask from loading .env automatically
+os.environ["FLASK_SKIP_DOTENV"] = "1"
+
 from flask import Flask ,render_template,request
 import feedparser
 
